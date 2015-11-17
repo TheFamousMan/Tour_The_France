@@ -1,0 +1,104 @@
+html{
+    background-image:url(img/background-france.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    /*background-image: url("http://www.seecoy.com/images/static.gif");*/
+}
+
+body{
+    margin:0;
+    padding:0;
+    /*background-color: white;*/
+}
+
+
+#container{
+    width: 1024px;
+    height: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: purple;*/
+}
+
+header{
+    /*margin-top: 40px;*/
+    width: 1024px;
+    height: 226px;
+    /*background-color: #D3F8E2;*/
+}
+
+#headerNav{
+    margin-top: 46px;
+    width: 1024px;
+    float: left;
+    height: 35px;
+    background-color: #f9c70e;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 2px solid white;
+    
+    -webkit-box-shadow: inset 0px -67px 34px -46px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px -67px 34px -46px rgba(255,255,255,1);
+    box-shadow: inset 0px -67px 34px -46px rgba(255,255,255,1);
+}
+#headerNav p{
+    margin-top: 7px;
+    font-weight: bold;
+}
+#headerTitle{
+    width: 875px;
+    height: 80px;
+    float:right;
+    background-color: white;
+    font-size: 36px;
+    -webkit-box-shadow: 0px 58px 81px 29px rgba(255,255,255,0.99);
+    -moz-box-shadow: 0px 58px 81px 29px rgba(255,255,255,0.99);
+    box-shadow: 0px 58px 81px 29px rgba(255,255,255,0.99);
+}
+#headerTitle p{
+    margin-left: 60px;
+}
+#headerLogo{
+    padding-top: 42px;
+    width: 149px;
+    height: 146px;
+    /*background-color: yellow;*/
+}
+#headerSearch{
+    margin-top: 23px;
+    width: 875px;
+    height: 40px;
+    float: right;
+    /*background-color: yellow;*/
+}
+#searchBar{
+    height: 40px;
+    width: 360px;
+    background-color: #454545;
+    margin-left: 60px;
+    text-align: center;
+    
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 1px solid black;
+}
+#searchBar input[type='text']{
+    width: 80px;
+}
+#searchBar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#content{
+    margin-top: 20px;
+    width: 1027px;
+    background-color: white;
+    height: 800px;
+}

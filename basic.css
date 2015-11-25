@@ -10,7 +10,37 @@ body{
     margin:0;
     padding:0;
     /*background-color: white;*/
+}/*
+.nav .radio{background: url('img/mainNav.png') no-repeat 0 0;float: left;}
+.nav .radio:hover{background-position: 0 -38px;}
+.radio a{width: 125px;}
+.nav .tour{background: url('img/mainNav.png') no-repeat -125px 0;float: left;}
+.nav .tour:hover{background-position: -125px -38px;}
+.tour a{width: 127px;}
+.radio a, .tour a{
+	display: inline-block;
+	height: 38px;
+	text-indent: -999em;
+}*/
+.search #searchform{float: left; background: url('img/mainNav.png') no-repeat -252px 0; width: 168px;height: 38px;}
+.search #searchform input{float: left;border: 0;background: none;margin-top: 8px;}
+
+.search .srchtxt{
+	width: 123px;
+	height: 21px;
+	margin-left: 9px;
+	font-size: 1;
+	padding: 0 5px;
 }
+
+.search .search_btn{
+	text-indent: -999em;
+	height: 21px;
+	width: 25px;
+	cursor: pointer;
+}
+
+
 
 
 #container{
@@ -52,6 +82,7 @@ header{
 #headerTitle{
     width: 875px;
     height: 80px;
+    margin-top: 30px;
     float:right;
     background-color: white;
     font-size: 36px;
@@ -68,6 +99,7 @@ header{
     height: 146px;
     /*background-color: yellow;*/
 }
+
 #headerSearch{
     margin-top: 23px;
     width: 875px;
@@ -75,20 +107,21 @@ header{
     float: right;
     /*background-color: yellow;*/
 }
-#searchBar{
-    height: 40px;
-    width: 360px;
-    background-color: #454545;
-    margin-left: 60px;
-    text-align: center;
+/*#searchBar{*/
+/*    height: 40px;*/
+/*    width: 360px;*/
+/*    background-color: #454545;*/
+/*    margin-left: 60px;*/
+/*    text-align: center;*/
     
-    border-radius: 13px 13px 13px 13px;
-    -moz-border-radius: 13px 13px 13px 13px;
-    -webkit-border-radius: 13px 13px 13px 13px;
-    border: 1px solid black;
-}
+/*    border-radius: 13px 13px 13px 13px;*/
+/*    -moz-border-radius: 13px 13px 13px 13px;*/
+/*    -webkit-border-radius: 13px 13px 13px 13px;*/
+/*    border: 1px solid black;*/
+/*}*/
 #searchBar input[type='text']{
     width: 80px;
+    margin-top:10px;
 }
 #searchBar a{
     text-decoration: none;

@@ -10,38 +10,7 @@ body{
     margin:0;
     padding:0;
     /*background-color: white;*/
-}/*
-.nav .radio{background: url('img/mainNav.png') no-repeat 0 0;float: left;}
-.nav .radio:hover{background-position: 0 -38px;}
-.radio a{width: 125px;}
-.nav .tour{background: url('img/mainNav.png') no-repeat -125px 0;float: left;}
-.nav .tour:hover{background-position: -125px -38px;}
-.tour a{width: 127px;}
-.radio a, .tour a{
-	display: inline-block;
-	height: 38px;
-	text-indent: -999em;
-}*/
-.search #searchform{float: left; background: url('img/mainNav.png') no-repeat -252px 0; width: 168px;height: 38px;}
-.search #searchform input{float: left;border: 0;background: none;margin-top: 8px;}
-
-.search .srchtxt{
-	width: 123px;
-	height: 21px;
-	margin-left: 9px;
-	font-size: 1;
-	padding: 0 5px;
 }
-
-.search .search_btn{
-	text-indent: -999em;
-	height: 21px;
-	width: 25px;
-	cursor: pointer;
-}
-
-
-
 
 #container{
     width: 1024px;
@@ -52,10 +21,9 @@ body{
 }
 
 header{
-    /*margin-top: 40px;*/
     width: 1024px;
     height: 226px;
-    /*background-color: #D3F8E2;*/
+    /*background-color: red;*/
 }
 
 #headerNav{
@@ -82,7 +50,6 @@ header{
 #headerTitle{
     width: 875px;
     height: 80px;
-    margin-top: 30px;
     float:right;
     background-color: white;
     font-size: 36px;
@@ -107,18 +74,18 @@ header{
     float: right;
     /*background-color: yellow;*/
 }
-/*#searchBar{*/
-/*    height: 40px;*/
-/*    width: 360px;*/
-/*    background-color: #454545;*/
-/*    margin-left: 60px;*/
-/*    text-align: center;*/
+#searchBar{
+    height: 40px;
+    width: 360px;
+    background-color: #454545;
+    margin-left: 60px;
+    text-align: center;
     
-/*    border-radius: 13px 13px 13px 13px;*/
-/*    -moz-border-radius: 13px 13px 13px 13px;*/
-/*    -webkit-border-radius: 13px 13px 13px 13px;*/
-/*    border: 1px solid black;*/
-/*}*/
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 1px solid black;
+}
 #searchBar input[type='text']{
     width: 80px;
     margin-top:10px;
@@ -132,6 +99,58 @@ header{
 #content{
     margin-top: 20px;
     width: 1027px;
+    
     background-color: white;
     height: 800px;
+}
+
+.btn{
+    color:white;
+    background-color:black;
+    border:1px solid black;
+}
+    
+#placeholder{
+    width:200px;
+    height:175px;
+    background-color: yellow;
+    float: left;
+}
+#article{
+    margin-left: 70px;
+    background-color: red;
+    width: 630px;
+    height: 200px;
+}
+#articleTitle{
+    width:630px;
+    height: 70px;
+    background-color: green;
+}
+#articleTitle p{
+    float: left;
+}
+#articleDes{
+    width:630px;
+    height: 90px;
+    background-color: blue;
+}
+#articleDes p{
+    margin: 0;
+}
+#articleSocial{
+    width:630px;
+    height: 40px;
+    background-color: purple;
+}
+#numberSong{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+#title{
+    padding-top:-20px;
+    margin-left: 10px;
 }

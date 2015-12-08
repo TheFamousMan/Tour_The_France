@@ -116,7 +116,12 @@ header{
     background-color: yellow;
     float: left;
 }
+#placeholder iframe{
+    width: 200px;
+    height: 175px;
+}
 #article{
+    margin-top: 50px;
     margin-left: 70px;
     background-color: red;
     width: 630px;
@@ -124,8 +129,9 @@ header{
 }
 #articleTitle{
     width:630px;
-    height: 70px;
+    height: 50px;
     background-color: green;
+    font-size: 15px;
 }
 #articleTitle p{
     float: left;
@@ -136,7 +142,6 @@ header{
     background-color: blue;
 }
 #articleDes p{
-    margin: 0;
 }
 #articleSocial{
     width:630px;
@@ -144,13 +149,13 @@ header{
     background-color: purple;
 }
 #numberSong{
-    padding: 5px;
+    padding: 10px;
     background-color: red;
     color: white;
     margin-top: 0px;
     margin-left: 20px;
 }
 #title{
-    padding-top:-20px;
+    margin-top:10px;
     margin-left: 10px;
 }

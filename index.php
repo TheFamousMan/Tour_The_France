@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+require_once 'config/config.php';
+require_once 'library/database.php';
+?>
 <html>
     <head>
         <title>Bap Opdracht</title>
@@ -20,12 +23,22 @@
                 <div id="headerNav"><p>JULI | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24</p></div>
             </header>
             <div id="content">
-                <div id="article">
-                    <div id="placeholder"></div>
-                    <div id="articleTitle"><p id="numberSong">95</p><p id="title">Julien Clerc: Noe</p></div>
-                    <div id="articleDes"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit porro quisquam animi. Tempora, sapiente, nesciunt, quos velit quasi illo eveniet odit alias necessitatibus possimus amet quam rerum soluta dicta.</p></div>
-                    <div id="articleSocial"></div>
-                </div>
+            <?php 
+
+            $result = $mysqli->query("SELECT * FROM songs"); 
+            
+            while ($song = $result->fetch_assoc()) {
+            
+            echo '<div id="article">';
+            echo '<div id="placeholder"><iframe src="https://www.youtube.com/embed/'.$song['yt-link'].'" frameborder="0" allowfullscreen></iframe></div>';
+            echo '<div id="articleTitle"><p id="numberSong">'.$song['rank'].'</p><p id="title">'.$song['artist'].' - '.$song['song'].'</p></div>';
+            echo '<div id="articleDes"><p>Lorem ipsumashdfvausdvfasd dsafb asdhbfsaydb fuyasbdfi.</p></div>';
+            echo '<div id="articleSocial"></div>';
+            echo '</div>';
+        }
+            ?>
+                    
+                    
                 
             </div>
         </div>

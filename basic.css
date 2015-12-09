@@ -126,6 +126,7 @@ header{
     background-color: red;
     width: 630px;
     height: 200px;
+
 }
 #articleTitle{
     width:630px;
@@ -159,3 +160,39 @@ header{
     margin-top:10px;
     margin-left: 10px;
 }
+
+input {
+    font-size:8.75px;
+    padding-top:2px;
+    text-align:center;
+
+}
+#tourtop100text{
+    padding-top:30px;
+    padding-left:60px;
+    font-family:tahoma;
+    color:red;
+    font-weight:bold;
+}
+
+hr{
+    margin-left:60px;
+    margin-top:-10px;
+    background-color: #fff;
+    border-top: 2px dotted #8c8b8b;
+    width:640px;
+
+
+
+}
+
+#rechts{
+
+    margin-right: 30px;
+}
+
+#rechts img{
+    width:200px;
+    height:200px;
+}
+

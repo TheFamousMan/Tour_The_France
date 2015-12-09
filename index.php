@@ -23,6 +23,34 @@ require_once 'library/database.php';
                 <div id="headerNav"><p>JULI | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24</p></div>
             </header>
             <div id="content">
+                <p id="tourtop100text">Vandaag in de Radio 1 Tour Top 100</p>
+                <hr>
+                <div id="rechts">
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="img/placeholder1.jpg">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="img/placeholder1.jpg">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="img/placeholder1.jpg">
+                                </a>
+                            </td>
+                        </tr>
+
+                    </table>
             <?php 
 
             $result = $mysqli->query("SELECT * FROM songs"); 
@@ -37,6 +65,7 @@ require_once 'library/database.php';
             echo '</div>';
         }
             ?>
+
                     
                     
                 
